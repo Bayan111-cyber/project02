@@ -1,0 +1,23 @@
+.nav-container {
+   display: flex; /* العناصر بجانب بعض */
+  justify-content: space-between; /* توزيعها من الطرف للطرف */
+  align-items: center;  /* توسيطها عموديًا */
+  border: 2px solid black; /* خط أسود حولها */
+  margin: 2px; /* مسافة 2px من كل الجهات */
+}
+.card-container {
+    display: flex; /* فعّل Flexbox */
+    flex-direction: row; /* البطاقات بجانب بعض */
+    flex-wrap: wrap; /* إذا ما في مساحة، انزل للسطر التالي */
+    gap: 20px; /* مسافة 20px بين البطاقات */
+   border: 2px solid black; /* خط أسود حولها */
+    
+
+}
+.card-container .card {
+    box-sizing: border-box; /* لتجنب تجاوز الحدود */
+    border: 1px solid #ccc; /* خط رمادي حول كل بطاقة */
+    padding: 10px; /* مسافة داخلية 10px */
+    background-color: #f9f9f9; /* خلفية فاتحة للبطاقة */
+    
+}

@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    border: 6px solid #ddd;
+    border-top: 6px solid #3498db;/*تغيير لون الجزء العلوي من العنصر إلى اللون الأزرق*/
+    border-radius: 50%;/*تغيير حواف العنصر إلى شكل دائري*/
+
+    animation: spin 1s;/*تطبيق الحركة على العنصر لمدة ثانية واحدة*/
+    animation-iteration-count: infinite;/*تكرار الحركة بشكل لا نهائي*/
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);/*تحديد زاوية البداية للدوران عند 0 درجة*/
+    }
+
+    to {
+        transform: rotate(360deg);/*تحديد زاوية النهاية للدوران عند 360 درجة*/
+    }
+}

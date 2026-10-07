@@ -1,0 +1,38 @@
+/* Square */
+.square {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+/* Rectangle */
+.rectangle {
+    width: 180px;/* Width of the rectangle */
+    height: 100px;/* Height of the rectangle */
+    border: 2px solid black;/* Border around the rectangle */
+}
+
+/* Perfect Circle */
+.circle {
+    width: 100px;/* Width of the circle */
+    height: 100px;/* Height of the circle */
+    border: 2px solid black;/* Border around the circle */
+    border-radius: 50%;/* Half of the width and height */
+}
+
+/* Capsule / Pill */
+.pill {
+    width: 180px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 50%;/* Half of the height */
+}
+
+/* CSS Triangle */
+.triangle {
+    width: 0; /* No width */
+    height: 0;/* No height */
+    border-left: 60px solid transparent;/* Left side of the triangle */
+    border-right: 60px solid transparent;/* Right side of the triangle */
+    border-bottom: 100px solid black;/* Bottom side of the triangle*/
+}

@@ -1,0 +1,27 @@
+.card {
+    width: 200px;
+    padding: 30px;
+    margin: 50px auto;
+    text-align: center;
+    background: lightblue;
+
+    transition: transform 0.3s;/*تجعل تغيير الحجم والمكان ناعمًا خلال 0.3 ثانية بدل أن يحدث فجأة.*/
+
+
+}
+
+.card:hover {/*عند وضع مؤشر الفأرة على العنصر، سيتم تطبيق التحويل التالي:*/
+    transform: translateY(-8px) scale(1.05);/*تحريك العنصر للأعلى بمقدار 8 بكسل وتكبيره بنسبة 5٪.*/
+}
+
+button {/*تحديد نمط الزر:*/
+    display: block;/*جعل الزر يظهر كعنصر كتلة، مما يسمح له بالاحتلال كامل عرض الحاوية.*/
+    margin: auto;/*توسيط الزر داخل الحاوية الأبوية.*/
+    padding: 12px 25px;
+
+    transition: transform 0.3s;/*تجعل تغيير الحجم والمكان ناعمًا خلال 0.3 ثانية بدل أن يحدث فجأة.*/
+}
+
+button:hover {
+    transform: translateY(-8px) scale(1.05);/*تحريك العنصر للأعلى بمقدار 8 بكسل وتكبيره بنسبة 5٪.*/
+}
